@@ -33,7 +33,7 @@ from mycroft.skills.context import adds_context, removes_context
 #API URL accessed via internet
 ISS_API_URL = "http://42.60.37.128:5000"
 
-ISS_SKILL_PATH="/opt/mycroft/skills/mycroft-iss-project.mycroftai"
+ISS_SKILL_PATH="/opt/mycroft/skills/mycroft-iss-project-main"
 
 class Api:
     """ Generic class to wrap web APIs """
