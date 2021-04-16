@@ -147,7 +147,7 @@ class ISSFileAccess:
    
 
 class ISSApi(Api):
-    """Web API wrapper for performing geolocation lookups."""
+   
 
     def __init__(self):
         super(ISSApi,self).__init__('iss')
