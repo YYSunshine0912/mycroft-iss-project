@@ -29,7 +29,9 @@ import re
 from os.path import join, expanduser, isdir
 from mycroft.skills.context import adds_context, removes_context
 #API URL hosted on local
-ISS_API_URL = "http://127.0.0.1:5000"
+#ISS_API_URL = "http://127.0.0.1:5000"
+#API URL accessed via internet
+ISS_API_URL = "http://42.60.37.128:5000"
 
 ISS_SKILL_PATH="/opt/mycroft/skills/mycroft-iss-project.mycroftai"
 
