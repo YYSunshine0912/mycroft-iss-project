@@ -7,13 +7,13 @@ This Microft skill is used to test Iris and Delivery API which are hosted in per
 
 
 ## Examples 
-* (1) The statements used to show project info are as below:
+* (1) The statements used to show project info:
 *     "ISS project"
 *     "ISS project info"
 *     "How many iss project"
 *     "How many iss project are there?"
 *     "How many iss project do we have?"
-* (2)The statements used to test Iris API are as below
+* (2)The statements used to test Iris API
 *     The statement includes key word "test iris"
 *     The statement includes key word "test project one"
 *     The statement includes key word "test demo one"
