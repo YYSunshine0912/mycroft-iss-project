@@ -33,7 +33,7 @@ from mycroft.skills.context import adds_context, removes_context
 #API URL accessed via internet
 ISS_API_URL = "http://42.60.37.128:5000"
 
-ISS_SKILL_PATH="/opt/mycroft/skills/mycroft-iss-project-main"
+ISS_SKILL_PATH="/opt/mycroft/skills/mycroft-iss-project"
 
 class Api:
     """ Generic class to wrap web APIs """
@@ -198,7 +198,7 @@ class ISSProjectSkill(MycroftSkill):
         self.speak_dialog("project.info")
        
     
-    @intent_handler(IntentBuilder("").require("Test").require("Iris").build())                    
+    @intent_handler(IntentBuilder("").require("Iris").build())                    
     def handle_test_iris_intent(self, message):
         """ This is an Adapt intent handler, it is triggered by a keyword."""
         #self.log.info(self.file_system.path)
@@ -249,7 +249,7 @@ class ISSProjectSkill(MycroftSkill):
         else:
             self.speak_dialog("not.find.file",{"project":"iris"},wait=True)
   
-    @intent_handler(IntentBuilder("").require("Test").require("Delivery").build())    
+    @intent_handler(IntentBuilder("").require("Delivery").build())    
     def handle_test_delivery_intent(self, message):        
         if self.iss_input.check_if_exists("delivery_input.json"):        
             input_param=dict() 
