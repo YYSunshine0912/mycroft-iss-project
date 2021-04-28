@@ -265,8 +265,8 @@ class ISSProjectSkill(MycroftSkill):
                     self.log.exception("Error: {0}".format(e))
                     self.speak_dialog("input.exception",{"project":"delivery"},wait=True)
                     raise  
-                if isinstance(input_param["vehicle_num"], int) !=True:
-                    self.speak('Input vehicel number is not a integer',wait=True)
+                if isinstance(input_param["vehicle_num"], str) !=True:
+                    self.speak('Input vehicel number is not a string',wait=True)
                 elif re.search(r'[0-9]{6}',str(input_param["current_postalCode"]))==None:
                     self.speak('Input postal code must be 6 digit number',wait=True)
                 else:
