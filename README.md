@@ -7,20 +7,20 @@ This Microft skill is used to test Iris and Delivery API which are hosted in per
 
 
 ## Examples 
-* (1) The statements used to show project info:
+* (1) The statements used to trigger "Show ISS Project(S) Info" intended task:
 *     "ISS project"
 *     "ISS project info"
 *     "How many iss project"
 *     "How many iss project are there?"
 *     "How many iss project do we have?"
-* (2)The statements used to test Iris API
-*     The statement includes key word "test iris"
-*     The statement includes key word "test project one"
-*     The statement includes key word "test demo one"
-* (3)The statements used to test Delivery API are as below
-*     The statement includes key workd "test delivery"
-*     The statement includes key word "test project two"
-*     The statement includes key word "test demo two"
+* (2)The statements used to trigger "Test Iris Demo" intended task:
+*     The statement includes "test Iris" key word
+*     The statement includes "test project one" key word
+*     The statement includes "test demo one" key word
+* (3)The statements used to trigger "Test Delivery Project" intended task:
+*     The statement includes "test delivery" key word
+*     The statement includes "test project two" key word
+*     The statement includes "test demo two" key word
 
 
 ## Credits 
